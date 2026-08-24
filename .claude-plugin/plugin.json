@@ -1,0 +1,19 @@
+{
+  "name": "ow-eilx",
+  "version": "0.1.0",
+  "description": "Explain any topic in a chosen persona, audience level, tone, depth, and format.",
+  "author": {
+    "name": "tsengyuwei",
+    "url": "https://github.com/oriensworld"
+  },
+  "homepage": "https://github.com/oriensworld/ow-eilx",
+  "repository": "https://github.com/oriensworld/ow-eilx",
+  "license": "MIT",
+  "keywords": [
+    "education",
+    "explanations",
+    "eli5",
+    "learning",
+    "writing"
+  ]
+}

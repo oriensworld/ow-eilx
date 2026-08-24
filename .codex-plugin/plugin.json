@@ -1,0 +1,37 @@
+{
+  "name": "ow-eilx",
+  "version": "0.1.0",
+  "description": "Explain any topic in a chosen persona, audience level, tone, depth, and format.",
+  "author": {
+    "name": "tsengyuwei",
+    "url": "https://github.com/oriensworld"
+  },
+  "homepage": "https://github.com/oriensworld/ow-eilx",
+  "repository": "https://github.com/oriensworld/ow-eilx",
+  "license": "MIT",
+  "keywords": [
+    "education",
+    "explanations",
+    "eli5",
+    "learning",
+    "writing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OW EILX — Explain It Like X",
+    "shortDescription": "Explain anything in the style that helps you learn",
+    "longDescription": "Choose a preset or describe your own explanation style by combining an audience, persona, tone, depth, and format.",
+    "developerName": "tsengyuwei",
+    "category": "Education",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Explain quantum computing like I'm five.",
+      "Explain Kubernetes like a patient teacher.",
+      "Explain this like a senior engineer with diagrams."
+    ],
+    "brandColor": "#6657D9"
+  }
+}
