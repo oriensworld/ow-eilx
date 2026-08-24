@@ -10,6 +10,7 @@ Create an accurate explanation shaped around how the user wants to understand it
 ## Resolve the request
 
 - Use the topic in the current user request. If the host expands `$ARGUMENTS`, treat that value as the topic and style request.
+- Treat every explicit invocation as a fresh request. Produce the requested explanation even if the same topic was explained earlier; do not redirect the user to another style merely to avoid repetition.
 - Extract any requested audience, persona, tone, depth, length, examples, or output format.
 - Use the explicit style named by the user. If none is given, default to `teacher`.
 - Explicit user instructions override every preset.
@@ -30,10 +31,12 @@ Read [references/styles.md](references/styles.md) when applying a named preset, 
 
 ## Present visually
 
-Create a visual explainer by default using an appropriate combination of pictures, diagrams, and words. Decide their proportion from the requested style, audience, topic complexity, and desired depth.
+Create the primary explanation as a rendered visual experience using an appropriate combination of pictures, diagrams, and words. Decide their proportion from the requested style, audience, topic complexity, and desired depth.
 
-- Prefer an inline HTML artifact or widget when the host supports it.
-- Otherwise, create standalone HTML or use portable visual Markdown or Mermaid.
+- Before writing the response, check whether the host exposes an inline HTML artifact or widget renderer.
+- When an inline renderer is available, invoke it for the primary explanation. This is required, not optional.
+- Do not substitute ASCII art, emoji, prose-only output, plain Markdown, tables, or Mermaid for the rendered explanation when an inline renderer is available.
+- Only when no inline renderer is available, create standalone HTML. If standalone HTML is not practical, fall back to portable visual Markdown or Mermaid.
 - The user's explicit format request always takes priority, including `text only`, `no artifact`, or another requested format.
 - Use visuals to teach the concept, not merely decorate it.
 - When presenting multiple styles, vary the visual density and word-picture balance so each version reflects its audience and persona.

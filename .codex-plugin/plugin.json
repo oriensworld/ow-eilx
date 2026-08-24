@@ -1,7 +1,7 @@
 {
   "name": "ow-eilx",
-  "version": "0.1.1",
-  "description": "Create adaptive visual explainers for any topic, balancing pictures, diagrams, and words for the chosen audience and style.",
+  "version": "0.1.2",
+  "description": "Create render-first visual explainers that use an inline artifact or widget when available and adapt pictures, diagrams, and words to the learner.",
   "author": {
     "name": "tsengyuwei",
     "url": "https://github.com/oriensworld"
@@ -19,8 +19,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "OW EILX — Explain It Like X",
-    "shortDescription": "Adaptive visual explanations in your chosen style",
-    "longDescription": "Choose a preset or describe your own style, and get a visual explainer whose balance of pictures, diagrams, and words adapts to the audience, topic, and depth.",
+    "shortDescription": "Render-first visual explanations in your style",
+    "longDescription": "Choose a preset or describe your own style. When the host provides inline rendering, EILX uses it for a visual explainer whose pictures, diagrams, and words adapt to the audience, topic, and depth.",
     "developerName": "tsengyuwei",
     "category": "Education",
     "capabilities": [

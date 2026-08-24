@@ -1,6 +1,6 @@
 # OW EILX — Explain It Like X
 
-OW EILX is a shared Claude and Codex plugin for creating adaptive visual explainers in the style that best fits the learner.
+OW EILX is a shared Claude and Codex plugin for creating render-first visual explainers in the style that best fits the learner.
 
 ## Examples
 
@@ -13,7 +13,7 @@ Give me the five-year-old version first, then the expert version.
 
 The plugin includes teacher, five-year-old, beginner, expert, storyteller, Socratic coach, analogy-first, visual, executive, and step-by-step presets. Styles can be combined freely.
 
-By default, EILX creates a visual explainer and lets the model balance pictures, diagrams, and words for the requested style, audience, topic complexity, and depth. It prefers an inline HTML artifact or widget when the host supports one, with standalone HTML, Mermaid, or visual Markdown as portable fallbacks. An explicit format request such as `text only` or `no artifact` always takes priority.
+By default, EILX creates a rendered visual explainer and lets the model balance pictures, diagrams, and words for the requested style, audience, topic complexity, and depth. When the host exposes an inline HTML artifact or widget renderer, the model must invoke it and may not silently substitute ASCII art or text-only output. Standalone HTML, Mermaid, and visual Markdown are fallbacks only when inline rendering is unavailable. An explicit format request such as `text only` or `no artifact` always takes priority.
 
 ## Invoke the skill
 

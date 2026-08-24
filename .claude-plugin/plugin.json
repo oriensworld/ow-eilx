@@ -1,7 +1,7 @@
 {
   "name": "ow-eilx",
-  "version": "0.1.1",
-  "description": "Create adaptive visual explainers for any topic, balancing pictures, diagrams, and words for the chosen audience and style.",
+  "version": "0.1.2",
+  "description": "Create render-first visual explainers that use an inline artifact or widget when available and adapt pictures, diagrams, and words to the learner.",
   "author": {
     "name": "tsengyuwei",
     "url": "https://github.com/oriensworld"
