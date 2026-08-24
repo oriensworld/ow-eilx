@@ -1,4 +1,4 @@
 interface:
   display_name: "Explain It Like X"
-  short_description: "Render-first visual explainers in a chosen style"
+  short_description: "Render-first explainers with linked HTML"
   default_prompt: "Use $explain-it-like to explain this like a patient teacher."

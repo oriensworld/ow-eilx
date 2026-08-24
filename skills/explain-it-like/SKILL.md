@@ -41,6 +41,17 @@ Create the primary explanation as a rendered visual experience using an appropri
 - Use visuals to teach the concept, not merely decorate it.
 - When presenting multiple styles, vary the visual density and word-picture balance so each version reflects its audience and persona.
 
+## Hand off generated HTML
+
+Whenever an HTML explainer file is created, returned, or saved, surface it at the end of the response.
+
+- Provide a clearly labeled clickable link to the actual HTML file using the host's supported local-file link format.
+- If clickable local-file links are unsupported, provide the absolute file path instead.
+- When the host supports attachments, downloadable resources, or file references, expose the actual HTML file through that capability as well.
+- Tell the user that the link opens the file on the current machine. To share it with another person, they must send the `.html` file itself or provide a separately hosted URL.
+- If a hosted URL exists, present it separately from the local-file link.
+- Never invent a file link, attachment, or URL when no HTML file was created or returned.
+
 ## Customize
 
 For a one-off custom style, apply the user's description directly. For a reusable bundled preset, help the user add or revise one entry in [references/styles.md](references/styles.md) while preserving the precedence rules above.

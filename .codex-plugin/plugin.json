@@ -1,7 +1,7 @@
 {
   "name": "ow-eilx",
-  "version": "0.1.2",
-  "description": "Create render-first visual explainers that use an inline artifact or widget when available and adapt pictures, diagrams, and words to the learner.",
+  "version": "0.1.3",
+  "description": "Create render-first visual explainers that adapt to the learner and hand off generated HTML with a clickable link for viewing or sharing.",
   "author": {
     "name": "tsengyuwei",
     "url": "https://github.com/oriensworld"
@@ -19,8 +19,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "OW EILX — Explain It Like X",
-    "shortDescription": "Render-first visual explanations in your style",
-    "longDescription": "Choose a preset or describe your own style. When the host provides inline rendering, EILX uses it for a visual explainer whose pictures, diagrams, and words adapt to the audience, topic, and depth.",
+    "shortDescription": "Render-first explainers with linked HTML",
+    "longDescription": "Choose a preset or describe your own style. EILX uses host rendering when available, adapts pictures, diagrams, and words to the learner, and links any generated HTML file for local viewing or sharing.",
     "developerName": "tsengyuwei",
     "category": "Education",
     "capabilities": [

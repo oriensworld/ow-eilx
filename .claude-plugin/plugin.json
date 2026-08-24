@@ -1,7 +1,7 @@
 {
   "name": "ow-eilx",
-  "version": "0.1.2",
-  "description": "Create render-first visual explainers that use an inline artifact or widget when available and adapt pictures, diagrams, and words to the learner.",
+  "version": "0.1.3",
+  "description": "Create render-first visual explainers that adapt to the learner and hand off generated HTML with a clickable link for viewing or sharing.",
   "author": {
     "name": "tsengyuwei",
     "url": "https://github.com/oriensworld"

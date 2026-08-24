@@ -15,6 +15,8 @@ The plugin includes teacher, five-year-old, beginner, expert, storyteller, Socra
 
 By default, EILX creates a rendered visual explainer and lets the model balance pictures, diagrams, and words for the requested style, audience, topic complexity, and depth. When the host exposes an inline HTML artifact or widget renderer, the model must invoke it and may not silently substitute ASCII art or text-only output. Standalone HTML, Mermaid, and visual Markdown are fallbacks only when inline rendering is unavailable. An explicit format request such as `text only` or `no artifact` always takes priority.
 
+Whenever EILX creates or returns an HTML file, it ends with a clickable link to the actual file and an absolute-path fallback when needed. A local link opens the explainer on the current machine; sharing requires sending the `.html` file itself or providing a separately hosted URL. Hosts that support attachments or downloadable file references should expose the file that way as well.
+
 ## Invoke the skill
 
 - Claude Code: `/explain-it-like <topic and style>`
