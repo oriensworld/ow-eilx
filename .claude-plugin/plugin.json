@@ -1,7 +1,7 @@
 {
   "name": "ow-eilx",
-  "version": "0.1.0",
-  "description": "Explain any topic in a chosen persona, audience level, tone, depth, and format.",
+  "version": "0.1.1",
+  "description": "Create adaptive visual explainers for any topic, balancing pictures, diagrams, and words for the chosen audience and style.",
   "author": {
     "name": "tsengyuwei",
     "url": "https://github.com/oriensworld"

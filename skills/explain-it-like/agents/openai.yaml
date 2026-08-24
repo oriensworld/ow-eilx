@@ -1,4 +1,4 @@
 interface:
   display_name: "Explain It Like X"
-  short_description: "Explain anything in a chosen style"
+  short_description: "Adaptive visual explainers in a chosen style"
   default_prompt: "Use $explain-it-like to explain this like a patient teacher."

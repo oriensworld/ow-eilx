@@ -1,7 +1,7 @@
 {
   "name": "ow-eilx",
-  "version": "0.1.0",
-  "description": "Explain any topic in a chosen persona, audience level, tone, depth, and format.",
+  "version": "0.1.1",
+  "description": "Create adaptive visual explainers for any topic, balancing pictures, diagrams, and words for the chosen audience and style.",
   "author": {
     "name": "tsengyuwei",
     "url": "https://github.com/oriensworld"
@@ -19,8 +19,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "OW EILX — Explain It Like X",
-    "shortDescription": "Explain anything in the style that helps you learn",
-    "longDescription": "Choose a preset or describe your own explanation style by combining an audience, persona, tone, depth, and format.",
+    "shortDescription": "Adaptive visual explanations in your chosen style",
+    "longDescription": "Choose a preset or describe your own style, and get a visual explainer whose balance of pictures, diagrams, and words adapts to the audience, topic, and depth.",
     "developerName": "tsengyuwei",
     "category": "Education",
     "capabilities": [

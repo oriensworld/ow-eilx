@@ -28,7 +28,15 @@ Read [references/styles.md](references/styles.md) when applying a named preset, 
 - Do not become condescending or use baby talk, including in the five-year-old style.
 - If the user requests multiple styles, present them in the requested order and make the differences useful rather than repetitive.
 
-Use ordinary conversation output by default. If the user asks for a visual or HTML explanation, use the host's supported visual output; otherwise provide portable Markdown, Mermaid, or a standalone HTML file as appropriate.
+## Present visually
+
+Create a visual explainer by default using an appropriate combination of pictures, diagrams, and words. Decide their proportion from the requested style, audience, topic complexity, and desired depth.
+
+- Prefer an inline HTML artifact or widget when the host supports it.
+- Otherwise, create standalone HTML or use portable visual Markdown or Mermaid.
+- The user's explicit format request always takes priority, including `text only`, `no artifact`, or another requested format.
+- Use visuals to teach the concept, not merely decorate it.
+- When presenting multiple styles, vary the visual density and word-picture balance so each version reflects its audience and persona.
 
 ## Customize
 

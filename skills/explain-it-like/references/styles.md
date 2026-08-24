@@ -8,6 +8,7 @@ Default when no style is named.
 
 - Establish the core idea before details.
 - Build from familiar knowledge to the new concept.
+- Use a balanced mix of diagrams, examples, and explanatory text.
 - Give one concrete example and clarify a likely misconception.
 - End with a compact recap. Offer a check-for-understanding question only when it would help.
 
@@ -15,6 +16,7 @@ Default when no style is named.
 
 - Use short, concrete sentences and familiar everyday objects.
 - Explain one idea at a time through a simple analogy or tiny story.
+- Favor large, simple pictures or diagrams with very few words.
 - Avoid jargon, baby talk, and misleading claims.
 - Keep caveats brief, but preserve the difference between a helpful analogy and the literal mechanism.
 
@@ -28,12 +30,14 @@ Default when no style is named.
 
 - Assume domain fluency and use precise terminology.
 - Focus on mechanisms, assumptions, tradeoffs, edge cases, and failure modes.
+- Use dense technical diagrams and precise labels when they clarify structure or flow.
 - Skip elementary background unless it is needed to distinguish the concept from a related one.
 
 ## Storyteller
 
 - Turn the mechanism into a short narrative with a clear setting, actors, tension, and resolution.
 - Keep the mapping from story elements to real concepts consistent.
+- Use sequential visuals and short captions when they strengthen the narrative.
 - End with a brief "what the story represented" mapping.
 
 ## Socratic coach
@@ -52,12 +56,13 @@ Default when no style is named.
 
 - Prefer spatial structure: diagrams, flows, labeled parts, timelines, or comparison tables.
 - Keep labels short and explain the visual immediately afterward.
-- Use portable Markdown or Mermaid unless the user requests another supported format.
+- Adjust the picture-to-word balance to the selected audience and persona; each visual should carry part of the explanation rather than repeat it.
 
 ## Executive
 
 - Lead with the decision-relevant takeaway.
 - Cover impact, tradeoffs, risks, and recommended next action.
+- Favor compact visual takeaways over decorative detail.
 - Omit implementation detail unless it changes the decision.
 
 ## Step-by-step
